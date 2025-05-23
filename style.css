@@ -132,12 +132,12 @@ header h2{
     margin-top: 2.5%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .Servicos .Cardapio, .Sobre, .Contato, .Reservas {
     border: 1px solid black;
-    width: 250px;
+    width: 300px;
     padding: 1%;
     margin-bottom: 15px;
 }
@@ -147,4 +147,73 @@ header h2{
     padding: 0;
 }
 
-.Servicos h2
+.Servicos h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.Servicos .vermais a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 1%;
+    background-color: red;
+    margin-top: 4%;
+    
+}
+
+
+/* PARTE DO FOOTER */
+
+footer{
+    margin-top: 80px;
+    border-top: 1px solid black;
+}
+
+.ConteudoFooter{
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Conteudo{
+    width: 1300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.Conteudo .Navegar, .RedesSociais, .Localizacao, .Direitos{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.ConteudoFooter .textFooter{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Conteudo ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.Conteudo ul{
+    list-style-type: none;
+
+}
+
+
+/* 
+
+    USAR O SPAN PARA ADICIONAR VALORES NA PARTE DE OFERTAS SEMANAIS
+
+
+*/
