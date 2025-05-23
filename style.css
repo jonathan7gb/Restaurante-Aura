@@ -5,20 +5,28 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    background-color: #fae190;
 }
 
 /* PARTE DO HEADER*/
 header{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     justify-content: space-between;
+    background-color: #2E1A0F;
+    color: #D4AF37;
 }
 
 header h2{
     padding: 1.5% 0% 1.5% 8%;
     letter-spacing: 2px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+header h2:hover{
+    font-size: 32px;
 }
 
 .opcoesHeader{
@@ -33,8 +41,14 @@ header h2{
 .opcoesHeader a{
     font-size: 16px;
     text-decoration: none;
-    color: black;
     font-weight: 500;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.opcoesHeader a:hover{
+    font-size: 18px;
+    color: #D4AF37;
 }
 
 
@@ -43,7 +57,11 @@ header h2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    background-color: #2E1A0F;
+}
+
+.ApresentacaoHome h1 {
+    font-size: 60px;
 }
 
 .ApresentacaoHome .textoAprensentacao{
@@ -53,12 +71,21 @@ header h2{
     padding-right: 5%;
     justify-content: center;
     text-align: left;
+    color: #D4AF37;
+    gap: 1%;
+    line-height: 1.5;
+
 }
+.ApresentacaoHome .textoAprensentacao p{
+    color: #ffffff;
+}
+
 
 .ApresentacaoHome img{
     width: 100vh;
     display: flex;
 }
+
 
 /* PARTE DA OFERTAS SEMANAIS */
 .OfertasSemana #titulo{
@@ -67,6 +94,8 @@ header h2{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    color: #2E1A0F;
+    font-weight: 800;
 }
 
 .Pasteis{
@@ -75,18 +104,31 @@ header h2{
     flex-flow: row wrap;
     justify-content: space-around;
 }
-
 .Pasteis .PastelSegunda, .PastelTerca, .PastelQuarta, .PastelQuinta, .PastelFind{
     border: 1px solid black;
     width: 250px;
     padding: 1%;
     margin-bottom: 15px;
+    background-color: #2E1A0F;
+    border-radius: 5px;
+    color:  #fff1c1;
+    cursor: pointer;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+}
+
+.Pasteis .PastelSegunda:hover, .Pasteis .PastelTerca:hover, .Pasteis .PastelQuarta:hover, .Pasteis .PastelQuinta:hover, .Pasteis .PastelFind:hover   {
+    transform: scale(1.03);
 }
 
 .PastelFind h2{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.Pasteis h2{
+    color: #D4AF37;
+
 }
 
 .Pasteis ul{
@@ -127,6 +169,8 @@ header h2{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    color: #2E1A0F;
+    font-weight: 800;
 }
 
 .Servicos{
@@ -137,10 +181,12 @@ header h2{
 }
 
 .Servicos .Cardapio, .Sobre, .Contato, .Reservas {
-    border: 1px solid black;
     width: 300px;
     padding: 1%;
     margin-bottom: 15px;
+    background-color: #22140c;
+    border-radius: 5px;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
 
 .Servicos img{
@@ -158,12 +204,17 @@ header h2{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #22140c;
     font-weight: 600;
     padding: 1%;
-    background-color: red;
+    background-color: #d4c38e;
     margin-top: 4%;
-    
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.Servicos .vermais a:hover{
+    background-color: #D4AF37;
 }
 
 
@@ -171,14 +222,15 @@ header h2{
 
 footer{
     margin-top: 80px;
-    border-top: 1px solid black;
 }
 
 .ConteudoFooter{
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     display: flex;
     justify-content: space-between;
+    background-color: #2E1A0F;
+    color: white;
 }
 
 .Conteudo{
@@ -191,6 +243,7 @@ footer{
 .Conteudo .Navegar, .RedesSociais, .Localizacao, .Direitos{
     padding-left: 2%;
     padding-right: 2%;
+    color: white;
 }
 
 .ConteudoFooter .textFooter{
@@ -199,16 +252,28 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #D4AF37;
 }
+
 
 .Conteudo ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.Conteudo ul li a:hover{
+    font-size: 15px;
+    color: #D4AF37;
 }
 
 .Conteudo ul{
     list-style-type: none;
+}
 
+.Conteudo h3{
+    color: #ddc470;
+    font-size: 16px;
 }
 
 
