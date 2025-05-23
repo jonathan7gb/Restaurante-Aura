@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* PARTE DO HEADER*/
+header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+header h2{
+    padding: 1.5% 0% 1.5% 10%;
+}
+
+.opcoesHeader{
+    /* background-color: aqua; */
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.opcoesHeader a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+/* PARTE DA APRESENTAÇÃO DA TELA INICIAL */
+.ApresentacaoHome{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.ApresentacaoHome .textoAprensentacao{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    text-align: left;
+}
+
+.ApresentacaoHome img{
+    width: 100vh;
+    display: flex;
+}
+
+/* PARTE DA OFERTAS SEMANAIS */
+.OfertasSemana #titulo{
+    padding-top: 5%;
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.Pasteis{
+    margin-top: 2.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Pasteis .PastelSegunda, .PastelTerca, .PastelQuarta, .PastelQuinta, .PastelFind{
+    border: 1px solid black;
+    width: 250px;
+    padding: 1%;
+    margin-bottom: 15px;
+}
+
+.PastelFind h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Pasteis ul{
+    margin-top: 0.7%;
+    list-style-type: none;
+    padding-left: 6%;
+}
+
+.Pasteis h2{
+    display: flex;
+    justify-content: center;
+}
+
+.Pasteis .Salgados{
+    margin-top: 2%;
+
+}
+
+.Pasteis .Salgados p{
+    font-weight: 600;
+
+}
+
+.Pasteis .Doces{
+    margin-top: 2%;
+}
+
+.Pasteis .Doces p{
+    font-weight: 600;
+
+}
+
+
+/* PARTE DA MAIS SERVIÇOS */
+.MaisServicos #titulo{
+    padding-top: 3%;
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.Servicos{
+    margin-top: 2.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Servicos .Cardapio, .Sobre, .Contato, .Reservas {
+    border: 1px solid black;
+    width: 250px;
+    padding: 1%;
+    margin-bottom: 15px;
+}
+
+.Servicos img{
+    width: 100%;
+    padding: 0;
+}
+
+.Servicos h2
