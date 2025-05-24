@@ -37,18 +37,26 @@ header{
     color: #d4c38e;
 }
 
-header h2{
-    padding: 1.5% 0% 1.5% 6%;
-    letter-spacing: 2px;
-    transition: all 0.5s ease;
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 1.5% 0% 1.5% 7%;
+    transition: all 1s ease;
     cursor: pointer;
+}
+
+header h2{
+    width: 340px;
+    margin-right: 4%;
+    letter-spacing: 2px;
     font-size: 30px;
     font-family: "Battambang", system-ui;
     font-weight: 900;
     font-style: normal;   
 }
 
-header h2:hover{
+.logo:hover{
+    transform: scale(1.10);
     font-size: 32px;
 }
 
@@ -502,7 +510,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: #d4c38e;
+    color: #f3e7bf;
     margin-top: 3%;
 }
 .SaboresDoces{
