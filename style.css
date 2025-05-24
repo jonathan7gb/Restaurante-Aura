@@ -4,8 +4,8 @@
 }
 
 body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #fae7ab;
+    font-family: "Poppins", sans-serif;
+    background-color: #f3e7bf;
 }
 
 /* PARTE DO HEADER*/
@@ -65,6 +65,8 @@ header h2:hover{
 
 .ApresentacaoHome h1 {
     font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    
 }
 
 .ApresentacaoHome .textoAprensentacao{
@@ -81,12 +83,35 @@ header h2:hover{
 }
 .ApresentacaoHome .textoAprensentacao p{
     color: #ffffff;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
 }
 
 
 .ApresentacaoHome img{
     width: 100vh;
     display: flex;
+}
+
+.ApresentacaoHome a{
+    color:#22140c;
+    text-decoration: none;
+    background-color: #d4c38e;
+    width: 16%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 2%;
+    border: 1px solid #d4c38e;
+    transition: all 1s ease;
+}
+
+.ApresentacaoHome a:hover{
+    border: 1px solid #d4c38e;
+    background-color: #22140c;
+    color: #d4c38e;
 }
 
 
@@ -109,33 +134,26 @@ header h2:hover{
 }
 
 .Pasteis .PastelSegunda, .PastelTerca, .PastelQuarta, .PastelQuinta, .PastelFind{
-    border: 1px solid black;
+    border: 1px solid #2E1A0F;
     width: 250px;
-    padding: 1%;
+    padding: 2%;
     margin-bottom: 15px;
     background-color: #2E1A0F;
-    border-radius: 5px;
+    border-radius: 8px;
     color:  #ffffff;
     cursor: pointer;
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .Pasteis .PastelSegunda:hover, .Pasteis .PastelTerca:hover, .Pasteis .PastelQuarta:hover, .Pasteis .PastelQuinta:hover, .Pasteis .PastelFind:hover   {
     transform: scale(1.03);
 }
 
-.PastelFind h2{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
 .Pasteis h2{
-    color: #2E1A0F;
+    color: #d4c38e;
     padding-bottom: 1.5%;
-    background-color: #d4c38e;
     border-radius: 5px;
-
 }
 
 .Pasteis ul{
@@ -153,6 +171,14 @@ header h2:hover{
 .Pasteis .Salgados{
     margin-top: 2%;
     color: #d4c38e;
+}
+
+.miniBorda{
+    border: 1px solid #d4c38e;
+    inset: 5%; 
+    pointer-events: none; 
+    border-radius: 5px; 
+    position: absolute;
 }
 
 .Pasteis .Salgados p{
@@ -236,6 +262,7 @@ header h2:hover{
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #d4c38e;
+    border: 1px solid #d4c38e;
     margin-top: 4%;
     border-radius: 5px;
     transition: all 1s ease;
