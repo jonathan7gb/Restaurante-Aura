@@ -12,6 +12,22 @@ body{
     background-color: #f3e7bf;
 }
 
+body::-webkit-scrollbar {
+    width: 8px; /* largura da barra */
+}
+
+body::-webkit-scrollbar-track {
+    background: #22140c; /* fundo da barra */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #554135; /* cor da barrinha que arrasta */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #554135; /* cor quando passa o mouse */
+}
+
 /* PARTE DO HEADER*/
 header{
     display: flex;
@@ -37,7 +53,6 @@ header h2:hover{
 }
 
 .opcoesHeader{
-    /* background-color: aqua; */
     width: 60vh;
     display: flex;
     align-items: center;
