@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: "Poppins", sans-serif;
     background-color: #f3e7bf;
@@ -363,10 +367,10 @@ footer{
 }
 
 .apresentacaoCardapio h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 .apresentacaoCardapio p{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .botoesOpcoes #titulo{
@@ -393,18 +397,23 @@ footer{
     background-color: #22140c;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2%;
 }
+
 .botao{
     display: flex;
     justify-content: center;
 }
+
 .opcoes .botao a{
     color: #22140c;
     text-decoration: none;
     background-color: #d4c38e;
     border: 1px solid #d4c38e ;
     width: 100%;
+    font-size: 18px;
     display: flex;
+    font-weight: 600;
     justify-content: center;
     padding: 1%;
     margin-top: 7%;
@@ -421,4 +430,74 @@ footer{
 .botoesOpcoes img{
     width: 450px;
     padding: 0;
+}
+
+.SaboresCardapio{
+    margin-top: 3%;
+}
+
+/* SALGADOS */
+.SaboresSalgados h2{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #24150d;
+}
+
+.SaboresSalgados .salg{
+    display: flex; 
+    flex-flow: row wrap;
+    gap: 1%;
+    row-gap: 1%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.SaboresSalgados .salg .pastel{
+    background-color: #22140c;
+    color: #d4c38e;
+    padding: 1%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+/* DOCES */
+.SaboresDoces h2{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #24150d;
+    margin-top: 3%;
+}
+
+.SaboresDoces .doc{
+    display: flex; 
+    flex-flow: row wrap;
+    gap: 1%;
+    row-gap: 1%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.SaboresDoces .doc .pastel{
+    background-color: #22140c;
+    color: #d4c38e;
+    padding: 1%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
