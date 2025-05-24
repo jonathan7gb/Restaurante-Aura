@@ -23,6 +23,9 @@ header h2{
     transition: all 0.5s ease;
     cursor: pointer;
     font-size: 30px;
+    font-family: "Battambang", system-ui;
+    font-weight: 900;
+    font-style: normal;   
 }
 
 header h2:hover{
@@ -181,6 +184,7 @@ header h2:hover{
     height: 2px;
     background-color: #2E1A0F;
     width: 50vw;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -247,7 +251,7 @@ header h2:hover{
 /* PARTE DO FOOTER */
 
 footer{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .ConteudoFooter{
@@ -278,19 +282,26 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #D4AF37;
+    color: #d4c38e;
 }
 
+.ConteudoFooter .textFooter h1{
+    font-family: "Battambang", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
 
 .Conteudo ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 14px;
+    transition: all 0.5s ease;
 }
 
 .Conteudo ul li a:hover{
     font-size: 15px;
-    color: #D4AF37;
+    color: #d4c38e;
+    font-weight: 300;
 }
 
 .Conteudo ul{
@@ -298,7 +309,7 @@ footer{
 }
 
 .Conteudo h3{
-    color: #ddc470;
+    color: #d4c38e;
     font-size: 16px;
     padding-bottom: 1%;
 }
