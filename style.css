@@ -68,6 +68,24 @@ header h2{
     margin-right: 5%;
 }
 
+.opcoesHeader #reservar {
+    background-color: #f3e7bf;
+    border: 1px solid #f3e7bf;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    color: #2E1A0F;
+    transition: all 0.5s ease;
+}
+
+.opcoesHeader #reservar:hover{
+    background-color: #2E1A0F;
+    color: #f3e7bf;
+    border: 1px solid #f3e7bf;
+}
+
 .opcoesHeader a{
     font-size: 16px;
     text-decoration: none;
@@ -162,6 +180,19 @@ header h2{
     font-weight: 800;
 }
 
+.tituloPrecoInicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+
+.tituloPrecoInicio p{
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
 .Pasteis{
     margin-top: 2.5%;
     display: flex;
@@ -217,7 +248,7 @@ header h2{
     position: absolute;
 }
 
-.Pasteis .Salgados p{
+.Pasteis .Salgados .tituloSalgadosCards, .Pasteis .Doces .tituloDocesCards{
     font-weight: 600;
     color: #d4c38e;
 }
@@ -227,10 +258,6 @@ header h2{
     color: #d4c38e;
 }
 
-.Pasteis .Doces p{
-    font-weight: 600;
-    color: #d4c38e;
-}
 
 
 /* LINHA MAIOR */
@@ -488,6 +515,20 @@ footer{
     margin-top: 3%;
 }
 
+.tituloPreco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+
+
+.tituloPreco .precoSabor{
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
 /* SALGADOS */
 .SaboresSalgados h2{
     font-size: 40px;
@@ -561,7 +602,7 @@ footer{
     width: 300px;
     display: flex;
     flex-flow: column wrap;
-    box-shadow:  10px 10px 16px rgba(218, 187, 119, 0.3);
+    box-shadow:  10px 10px 16px rgba(204, 188, 155, 0.199);
     cursor: pointer;
 }
 
