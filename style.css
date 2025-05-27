@@ -68,7 +68,7 @@ header h2{
     margin-right: 5%;
 }
 
-.opcoesHeader #reservar {
+.opcoesHeader #abrirReserva {
     background-color: #f3e7bf;
     border: 1px solid #f3e7bf;
     border-radius: 5px;
@@ -80,7 +80,7 @@ header h2{
     transition: all 0.5s ease;
 }
 
-.opcoesHeader #reservar:hover{
+.opcoesHeader #abrirReserva:hover{
     background-color: #2E1A0F;
     color: #f3e7bf;
     border: 1px solid #f3e7bf;
@@ -691,11 +691,13 @@ footer{
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
 
+
+
 /* FORMULÁRIO DE RESERVA */
 .SideBarReserva{
     background-color:  #f3e7bf;
-    width: 25vw;
-    height: 100vh;
+    width: 600px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     border-left: 2px solid #22140c;
@@ -707,13 +709,21 @@ footer{
 .videoYTB{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 5%;
     margin-bottom: 5%;
+    flex-direction: column;
+}
+
+.videoYTB h3{
+    margin-bottom: 3%;
+    font-size: 22px;
 }
 
 .horarioFuncionamento h3{
     display: flex;
     justify-content: center;
+    font-size: 24px;
 }
 
 .horarioFuncionamento p{
@@ -723,6 +733,11 @@ footer{
     justify-content: center;
     font-size: 14px;
     text-align: center;
+}
+
+.horarioFuncionamento .descricaoFunc{
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .horarioFuncionamento{
@@ -761,10 +776,12 @@ footer{
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 1px solid #2E1A0F;
+    border: 1.5px solid #2E1A0F;
     border-radius: 3px;
-    width: 45%;
-    margin-bottom: 10px;
+    width: 240px;
+    height: 20px;
+    margin-bottom: 3%;
+    background-color: #f3e7bf;
 }
 
 .inputsForms .nomeTelefone{
@@ -793,9 +810,93 @@ footer{
 .inputsForms .dataHora .dataReserva{
     display: flex;
     flex-direction: column;
-    font-family: "Poppins", sans-serif;
+}
+
+textarea .observacoes{
+    border: 1px solid #2E1A0F;
+    border-radius: 3px;
+    background-color: #f3e7bf;
+}
+
+.observs{
+    background-color: #f3e7bf;
+}
+
+#enviar{
+    width: 100%;
+    height: 40px;
+    background-color: #2E1A0F;
+    border: 1px solid #2E1A0F;
+    color: #d4c38e;
+    font-weight: 700;
     font-size: 18px;
-    width: 45%;
+    border-radius: 3px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-size: "Poppins", sans-serif;
+}
+
+#enviar:hover{
+    background-color: #f3e7bf;
+    color: #2E1A0F;
 }
 
 
+.avisosImportantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+    margin-top: 1%;
+}
+
+.avisosImportantes h4{
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.logoFormsAura {
+    font-family: "Battambang", system-ui;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.SideBarReserva {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    width: 600px;
+    height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    z-index: 999;
+  }
+  
+  .SideBarReserva.ativa {
+    transform: translateX(0%);
+  }
+
+.SideBarReserva::-webkit-scrollbar {
+    width: 8px; /* largura da barra */
+}
+
+.SideBarReserva::-webkit-scrollbar-track {
+    background: #22140c; /* fundo da barra */
+}
+
+.SideBarReserva::-webkit-scrollbar-thumb {
+    background: #554135; /* cor da barrinha que arrasta */
+}
+
+.SideBarReserva::-webkit-scrollbar-thumb:hover {
+    background: #554135; /* cor quando passa o mouse */
+}
