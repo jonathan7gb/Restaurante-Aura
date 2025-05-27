@@ -28,8 +28,128 @@
     </header>
 
     <main>
-        
+        <div class="apresentacaoContato">
+            <h1>CONTATO AURA</h1>
+            <p>Precisa tirar dúvidas ou fazer sugestões? Nosso atendimento é tão bom quanto nosso cardápio.</p>
+        </div>
+
+        <div class="lados">
+            <div class="ladoEsquerdo">
+                <div class="formularioContato">
+                    <h1>Formulário de contato</h1>
+                    <form action="#" method="post">
+                        <div class="nomeEmail">
+                            <input type="text" id="nome" name="nome" placeholder="Nome Completo">
+                            <input type="email" id="email" name="email" placeholder="Seu Email">
+                        </div>
+                        <div class="Mensagem">
+                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                        </div>
+                    </form>
+
+                    <p>Respondemos rapidinho! Prometemos não te deixar esperando mais que o tempo de fritar um pastel 😉</p>
+                </div>
+
+            </div>
+
+            <div class="ladoDireito">
+                <div class="localizacao">
+                    <h1>Nossa Localização</h1>
+                    <p>Rua das Palmeiras, 1287 - Centro - São Vicente - SP, 11320-045</p>
+                
+                    <div class="mapa">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14281.161897397991!2d-49.093017599999996!3d-26.51078085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de94dc6a858273%3A0xd80706fb4dc3a3a3!2sSENAI%20Jaragu%C3%A1%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1748371066511!5m2!1spt-BR!2sbr" 
+                            width="600" 
+                            height="350" 
+                            style="border: 1px solid #22140c;  border-radius: 5px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            id="mapaAura"
+                            >
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="linhaMaior">
+            <div class="linha"></div>
+        </div>
+
+            <div class="parteBaixo">
+                <div class="telefones">
+                    <h1>Telefones para Contato</h1>
+                    <p>Whatsapp: (47) 91234-5678</p>
+                    <p>Telefone Fixo: (47) 1234-5678</p>
+                    <p>Telefone para dúvidas: (47) 3456-7891</p>
+                </div>
+            
+                <div class="emailContato">
+                    <h1>Nosso Email</h1>
+                    <p>pastelaria_aura@aura.com</p>
+                </div>
+            
+                <div class="redesSociais">
+                    <h1>Redes Sociais</h1>
+                    <p><span>Instagram: </span>@pastelaria_AuraOficial</p>
+                    <p><span>Tik Tok:</span> @pastelaria_aura</p>
+                    <p><span>Facebook:</span> @pastelaria_auraOficial</p>
+                    <p><span>Youtube:</span> Pastelaria Aura</p>
+                    <p><span>Linkedin:</span> Pastelaria Aura Linkedin</p>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div class="ConteudoFooter">
+            <div class="textFooter">
+                <h1>PASTELARIA AURA</h1>
+                <q>A Pastelaria com mais <strong>Aura</strong>  da região</q>
+            </div>
+            <div class="Conteudo">
+                <div class="Navegar">
+                    <h3>Navegar</h3>
+                    <ul>
+                        <li><a href="./index.html">- Início</a></li>
+                        <li><a href="./Cardapio/index.html">- Cardápio</a></li>
+                        <li><a href="./Sobre/index.html">- Sobre</a></li>
+                        <li><a href="./Contato/index.html">- Contato</a></li>
+                        <li><a href="#" id="abrirReserva">- Reservas</a></li>
+                    </ul>
+                </div>
+
+                <div class="RedesSociais">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="#">- Instagram</a></li>
+                        <li><a href="#">- Tik Tok</a></li>
+                        <li><a href="#">- Facebook</a></li>
+                        <li><a href="#">- Youtube</a></li>
+                        <li><a href="#">- Linkedin</a></li>
+                    </ul>
+                </div>
+
+                <div class="Localizacao">
+                    <h3>Onde Estamos?</h3>
+                    <p>- Rua das Palmeiras, 1287 - Centro</p>
+                    <p>São Vicente - SP, 11320-045</p>
+                    <p>- (47) 91234-5678</p>
+                </div>
+
+                <div class="Direitos">
+                    <h3>Direitos Autorais</h3>
+                    <p>© Todos os direitos autorais reservado à Jonathan Luis Uber,</p>
+                    <p>Desenvolvedor da página PASTELARIA AURA</p>
+                </div>
+
+            </div> <!-- FECHA DIV Conteudo  -->
+        </div> <!-- FECHA DIV ConteudoFooter  -->
+
+    </footer>
+
 
     <div class="SideBarReserva" id="reservaSidebar">
 
@@ -92,12 +212,13 @@
                         </div>
                     </div>
                     <label for="observacoes">Observacões:</label><br>
-                    <textarea id="observacoes" class="observs" name="observacoes" rows="4" cols="70" placeholder="Ex: Aniversário, etc."></textarea>
+                    <textarea id="observacoes" class="observs" name="observacoes" rows="4" cols="64" placeholder="Ex: Aniversário, etc."></textarea>
 
                     
                     <input type="submit" id="enviar" name="enviar" class="enviar" value="Quero minha mesa!">
                 </form>     
             </div>
+        </div>
 
             <div class="linhaMenorForms">
                 <div class="linha"></div>
@@ -121,7 +242,6 @@
                 </svg>
             </div>
 
-        </div>
     </div>
 
 
