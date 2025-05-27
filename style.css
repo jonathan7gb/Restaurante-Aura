@@ -761,6 +761,18 @@ footer{
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
 
+.tituloSidebar h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    color: #f3e7bf;
+    padding-bottom: 5%;
+}
+
+.tituloSidebar{
+    background-color: #22140c;
+}
+
 .formularioReserva h2{
     display: flex;
     justify-content: center;
@@ -832,7 +844,7 @@ textarea .observacoes{
     font-size: 18px;
     border-radius: 3px;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     transition: all 0.5s ease;
     cursor: pointer;
     font-size: "Poppins", sans-serif;
@@ -850,7 +862,7 @@ textarea .observacoes{
     justify-content: center;
     align-items: center;
     margin-bottom: 7%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .avisosImportantes h4{
