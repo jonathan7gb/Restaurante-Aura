@@ -31,7 +31,8 @@
         <div class="SideBarReserva">
 
             <div class="videoYTB">
-                <iframe src="https://www.youtube.com/embed/KVLy6NOT1pA" 
+                <iframe width="360" height="179"
+                src="https://www.youtube.com/embed/KVLy6NOT1pA" 
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -39,38 +40,62 @@
               </iframe>
             </div>
 
+            <div class="linhaMenorForms">
+                <div class="linha"></div>
+            </div>
+
             <div class="horarioFuncionamento">
                 <h3>Horário de Funcionamento AURA</h3>
                 <p>- Segunda a Sexta: 17h às 23h</p>
                 <p>- Sábado: 16h às 00h</p>
                 <p>- Domingo: 16h às 22h</p>
-                <q>Funcionamos todos os dias com aquele pastel quentinho e crocante no fim do dia!</q>
+                <p>"Funcionamos todos os dias com aquele pastel quentinho e crocante no fim do dia!"</p>
+            </div>
+
+            <div class="linhaMenorForms">
+                <div class="linha"></div>
             </div>
 
             <div class="formularioReserva">
-                <form action="#" method="post">
-                    <input type="text" id="nomeCompleto" name="nome" placeholder="Nome Completo ">
+                <h2>RESERVA DE MESA </h2>
+                <div class="inputsForms">
+                    <form action="#" method="post">
+                        <div class="nomeTelefone">
+                            <input type="text" id="nomeCompleto" name="nome" placeholder="Nome Completo ">
 
-                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone/Whatsapp">
+                            <input type="tel" id="telefone" name="telefone" placeholder="Telefone/Whatsapp">
+                        </div>
 
-                    <input type="number" id="quantidadePessoas" name="quantidadePessoas" placeholder="Quantidade de Pessoas">
+                        <div class="qntdPessoasEmail">
+                            <input type="number" id="quantidadePessoas" name="quantidadePessoas" placeholder="Quantidade de Pessoas">
 
-                    <input type="date" id="dataReserva" name="dataReserva" placeholder="Data da Reserva">
+                            <input type="email" id="email" name="email" placeholder="Email">
+                        </div>
 
-                    <input type="time" id="horarioReserva" name="horarioReserva" placeholder="Horário da Reserva">
+                        <div class="dataHora">
+                            <div class="dataReserva">
+                                <label for="date">Data da Reserva</label>
+                                <input type="date" id="dataReserva" name="dataReserva" placeholder="Data da Reserva">
+                            </div>
 
-                    <label for="observacoes">Observacões:</label><br>
-                    <textarea id="observacoes" name="observacoes" rows="4" cols="50" placeholder="Ex: Aniversário, precisa de cadeirão, etc."></textarea>
+                            <div class="horaReserva">
+                                <label for="time">Horário</label>
+                                <input type="time" id="horarioReserva" name="horarioReserva" placeholder="Horário da Reserva">
+                            </div>
+                        </div>
+                        <label for="observacoes">Observacões:</label><br>
+                        <textarea id="observacoes" name="observacoes" rows="4" cols="40" placeholder="Ex: Aniversário, etc."></textarea>
 
-                    <div class="avisosImportantes">  
-                        <h4>Avisos Importantes</h4>
-                        <p>- Reservas válidas com até 30 min de tolerância</p>
-                        <p>- Reservas apenas para grupos de até 8 pessoas</p>
-                        <p>- Para reservas maiores, entre em contato via WhatsApp</p>
-                    </div>
+                        <div class="avisosImportantes">  
+                            <h4>Avisos Importantes</h4>
+                            <p>- Reservas válidas com até 30 min de tolerância</p>
+                            <p>- Reservas apenas para grupos de até 8 pessoas</p>
+                            <p>- Para reservas maiores, entre em contato via WhatsApp</p>
+                        </div>
 
-                    <input type="submit" id="enviar" nam="enviar">
-                </form>
+                        <input type="submit" id="enviar" nam="enviar">
+                    </form>
+                </div>
             </div>
     </div>
     </main>

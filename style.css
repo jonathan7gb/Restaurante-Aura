@@ -693,7 +693,109 @@ footer{
 
 /* FORMULÁRIO DE RESERVA */
 .SideBarReserva{
-    background-color: rgb(255, 255, 255);
+    background-color:  #f3e7bf;
     width: 25vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #22140c;
+    border-right: 2px solid #22140c;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+    color: #22140c;
 }
+
+.videoYTB{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.horarioFuncionamento h3{
+    display: flex;
+    justify-content: center;
+}
+
+.horarioFuncionamento p{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+}
+
+.horarioFuncionamento{
+    margin-bottom: 5%;
+}
+
+/* LINHA MENOR FORMULÁRIO */
+.linhaMenorForms{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.linhaMenorForms .linha{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    height: 2px;
+    margin-bottom: 5%;
+    background-color: #2E1A0F;
+    width: 70%;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+}
+
+.formularioReserva h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.inputsForms{
+    display: flex;
+    justify-content: center;
+}
+
+.inputsForms input{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #2E1A0F;
+    border-radius: 3px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.inputsForms .nomeTelefone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    gap: 10px;
+}
+
+.inputsForms .qntdPessoasEmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    gap: 10px;
+}
+
+.inputsForms .dataHora{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.inputsForms .dataHora .dataReserva{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    width: 45%;
+}
+
+
