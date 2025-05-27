@@ -690,3 +690,10 @@ footer{
     width: 65vw;
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
+
+/* FORMULÁRIO DE RESERVA */
+.SideBarReserva{
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 100vh;
+}
