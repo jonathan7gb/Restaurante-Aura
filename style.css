@@ -551,7 +551,7 @@ footer{
 
 .SaboresSalgados .salg .pastel{
     background-color: #22140c;
-    color: #d4c38e;
+    color: #f3e7bf;
     padding: 1%;
     margin-bottom: 3%;
     border-radius: 5px;
@@ -576,12 +576,14 @@ footer{
     color: #f3e7bf;
     margin-top: 3%;
 }
+
 .SaboresDoces{
     background-color: #24150d;
     padding-top: 0.2%;
     padding-bottom: 0.5%;
     margin-top: 5%;
 }
+
 .SaboresDoces .doc{
     display: flex; 
     flex-flow: row wrap;
@@ -591,6 +593,7 @@ footer{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .SaboresDoces .doc .pastel{
@@ -642,7 +645,7 @@ footer{
 
 .SaboresBebidas .bebidass .bebida{
     background-color: #22140c;
-    color: #d4c38e;
+    color: #f3e7bf;
     padding: 1%;
     margin-bottom: 2%;
     border-radius: 5px;
