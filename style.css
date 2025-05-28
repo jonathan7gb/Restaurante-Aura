@@ -947,6 +947,7 @@ textarea .observacoes{
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 3%;
+    flex-wrap: wrap;
 }
 
 /* LADO ESQUERDO */
@@ -1042,6 +1043,7 @@ textarea .observacoes{
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 4%;
+    flex-wrap: wrap ;
 }
 
 .telefones{
