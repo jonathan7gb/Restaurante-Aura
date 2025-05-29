@@ -9,6 +9,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -26,9 +28,50 @@
             <a href="#" id="abrirReserva">Reservas</a>
         </div>
     </header>
+
+
     <main>
 
     </main>
+
+
+
+    <section class="sobre">
+        <div class="sobreNos" data-aos="fade-up">
+            <h2>Sobre Nós</h2>
+            <p>A Pastelaria Aura é um espaço acolhedor e familiar, onde o amor pela culinária se reflete em cada pastel. Nossa missão é proporcionar uma experiência única, com pastéis fresquinhos e saborosos, feitos com ingredientes selecionados e muito carinho.</p>
+            <p>Localizada no coração da cidade, a Aura é o lugar perfeito para reunir amigos e familiares, saborear nossos deliciosos pastéis e desfrutar de um ambiente agradável e descontraído.</p>
+            <p>Venha nos visitar e descubra o verdadeiro sabor do pastel!</p>
+        </div>
+
+        <div class="nossaHistoria" data-aos="fade-up">
+            <h2>Nossa História</h2>
+            <p>A Pastelaria Aura nasceu do sonho de uma família apaixonada por culinária. Desde o início, nosso objetivo foi criar um espaço onde as pessoas pudessem se sentir em casa, saboreando pastéis feitos com amor e dedicação.</p>
+            <p>Com o passar dos anos, a Aura se tornou um ponto de encontro para amigos e familiares, sempre com aquele pastel quentinho e crocante no fim do dia. Nossa história é marcada por momentos especiais, risadas e muito sabor.</p>
+            <p>Hoje, continuamos a tradição de oferecer pastéis fresquinhos e saborosos, sempre com um toque especial que faz da Aura um lugar único.</p>
+
+        </div>
+
+        <div class="nossaMissao" data-aos="fade-up">
+            <h2>Nossa Missão</h2>
+            <p>Nossa missão é proporcionar uma experiência gastronômica única, com pastéis fresquinhos e saborosos, feitos com ingredientes selecionados e muito carinho. Queremos ser o lugar onde as pessoas se reúnem para celebrar momentos especiais, compartilhar risadas e desfrutar de uma refeição deliciosa.</p>
+            <p>Acreditamos que a comida tem o poder de unir as pessoas, e é por isso que nos dedicamos a criar um ambiente acolhedor e familiar, onde todos se sintam bem-vindos.</p>
+            <p>Na Pastelaria Aura, cada pastel é preparado com amor e dedicação, garantindo que nossos clientes tenham uma experiência inesquecível a cada visita.</p>
+        </div>
+
+        <div class="nossaVisao" data-aos="fade-up">
+            <h2>Nossa Visão</h2>
+            <p>Nossa visão é ser reconhecida como a melhor pastelaria da cidade, oferecendo pastéis de alta qualidade e um atendimento excepcional. Queremos expandir nossa presença, levando o sabor da Aura para mais pessoas e lugares.</p>
+            <p>Buscamos constantemente inovar e aprimorar nossos produtos e serviços, sempre mantendo o compromisso com a qualidade e a satisfação dos nossos clientes.</p>
+            <p>Na Pastelaria Aura, acreditamos que o futuro é feito de sonhos, dedicação e muito sabor!</p>
+        </div>
+    </section>
+
+
+
+
+
+
 
     <div class="SideBarReserva" id="reservaSidebar">
         
@@ -140,6 +183,8 @@
             sidebar.classList.remove("ativa");
           }
         });
+
+        AOS.init(); // Ativa o AOS
       </script>
 
     

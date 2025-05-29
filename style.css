@@ -208,7 +208,6 @@ header h2{
     background-color: #2E1A0F;
     border-radius: 8px;
     color:  #ffffff;
-    cursor: pointer;
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
     position: relative;
 }
@@ -1097,3 +1096,24 @@ textarea .observacoes{
 }
 
 
+.sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre h2{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre .sobreNos, .sobre .nossaHistoria, .sobre .nossaMissao, .sobre .nossaVisao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre p{
+    width: 70%;
+    text-align: center;
+}

@@ -9,6 +9,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -33,7 +35,7 @@
             <p>Precisa tirar dúvidas ou fazer sugestões? Nosso atendimento é tão bom quanto nosso cardápio.</p>
         </div>
 
-        <div class="lados">
+        <div class="lados" data-aos="fade-up">
             <div class="ladoEsquerdo">
                 <div class="formularioContato">
                     <h1>Formulário de contato</h1>
@@ -52,7 +54,7 @@
 
             </div>
 
-            <div class="ladoDireito">
+            <div class="ladoDireito" >
                 <div class="localizacao">
                     <h1>Nossa Localização</h1>
                     <p>Rua das Palmeiras, 1287 - Centro - São Vicente - SP, 11320-045</p>
@@ -78,7 +80,7 @@
             <div class="linha"></div>
         </div>
 
-            <div class="parteBaixo">
+            <div class="parteBaixo"  data-aos="fade-up">
                 <div class="telefones">
                     <h1>Telefones para Contato</h1>
                     <p>Whatsapp: (47) 91234-5678</p>
@@ -105,7 +107,7 @@
     </main>
 
     <footer>
-        <div class="ConteudoFooter">
+        <div class="ConteudoFooter"  data-aos="fade-up">
             <div class="textFooter">
                 <h1>PASTELARIA AURA</h1>
                 <q>A Pastelaria com mais <strong>Aura</strong>  da região</q>
@@ -261,6 +263,8 @@
             sidebar.classList.remove("ativa");
           }
         });
+
+        AOS.init(); // Ativa o AOS
       </script>
 </body>
 </html>
