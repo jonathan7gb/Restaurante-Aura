@@ -1265,8 +1265,33 @@ textarea .observacoes{
 .avaliacaoClientes h1{
     display: flex;
     justify-content: center;
-    margin-bottom: 1.5%;
+    margin-bottom: 3%;
     color: #22140c;
     font-size: 45px;
-    margin-top: 4%;
+    margin-top: 3%;
+}
+
+.estrela {
+    color: gold;
+    font-size: 22px;
+}
+
+.containerComentarios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.containerComentarios .comentario{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #22140c;
+    color: #f3e7bf;
+    border-radius: 5px;
+    padding: 1.5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.119);
+    margin-bottom: 2%;
 }
