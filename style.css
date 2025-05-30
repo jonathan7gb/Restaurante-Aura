@@ -99,6 +99,10 @@ header h2{
 }
 
 
+.opcoesHeader:hover > a:not(:hover){
+    opacity: 0.8;
+}
+
 /* PARTE DA APRESENTAÇÃO DA TELA INICIAL */
 .ApresentacaoHome{
     display: flex;
@@ -120,7 +124,7 @@ header h2{
     padding-right: 5%;
     justify-content: center;
     text-align: left;
-    color: #d4c38e;
+    color: #f3e7bf;
     gap: 1%;
     line-height: 1.5;
 
@@ -213,6 +217,10 @@ header h2{
 
 .Pasteis .PastelSegunda:hover, .Pasteis .PastelTerca:hover, .Pasteis .PastelQuarta:hover, .Pasteis .PastelQuinta:hover, .Pasteis .PastelFind:hover   {
     transform: scale(1.03);
+}
+
+.Pasteis:hover > .PastelSegunda:not(:hover),.Pasteis:hover > .PastelTerca:not(:hover),.Pasteis:hover > .PastelQuarta:not(:hover),.Pasteis:hover > .PastelQuinta:not(:hover),.Pasteis:hover > .PastelFind:not(:hover){
+    opacity: 0.9;
 }
 
 .Pasteis h2{
@@ -426,7 +434,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #22140c;
-    color: #d4c38e;
+    color: #f3e7bf;
 }
 
 .apresentacaoCardapio h1{
@@ -564,10 +572,15 @@ footer{
     display: flex;
     flex-flow: column wrap;
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
 }
 
 .SaboresSalgados .salg .pastel:hover{
     transform: scale(1.03);
+}
+
+.salg:hover > .pastel:not(:hover){
+    opacity: 0.8;
 }
 
 
@@ -610,10 +623,15 @@ footer{
     display: flex;
     flex-flow: column wrap;
     box-shadow:  10px 10px 16px rgba(204, 188, 155, 0.199);
+    transition: all 0.5s ease;
 }
 
 .SaboresDoces .doc .pastel:hover{
     transform: scale(1.03);
+}
+
+.doc:hover > .pastel:not(:hover){
+    opacity: 0.8;
 }
 
 /* BEBIDAS */
@@ -656,10 +674,15 @@ footer{
     display: flex;
     flex-flow: column wrap;
     box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
 }
 
 .SaboresBebidas .bebidass .bebida:hover{
     transform: scale(1.03);
+}
+
+.bebidass:hover > .bebida:not(:hover){
+    opacity: 0.8;
 }
 
 /* LINHA MENOR */
@@ -929,7 +952,7 @@ textarea .observacoes{
     justify-content: center;
     align-items: center;
     background-color: #22140c;
-    color: #d4c38e;
+    color: #f3e7bf;
 }
 
 .apresentacaoContato h1{
@@ -939,6 +962,7 @@ textarea .observacoes{
     font-size: 15px;
     display: flex;
     text-align: center;
+    color: #f3e7bf;
 }
 
 .lados{
@@ -1267,6 +1291,18 @@ textarea .observacoes{
     text-align: center;
 }
 
+.numerosAura .numeroClientes, .pasteisTotal, .totalDelivery, .familiasAtendidas{
+    transition: all 0.8s ease;
+}
+
+.numerosAura div:hover{
+    transform: scale(1.2);
+}
+
+.numerosAura:hover > div:not(:hover){
+    opacity: 0.5;
+}
+
 .numerosAura h1{
     font-size: 55px;
 }
@@ -1316,4 +1352,122 @@ textarea .observacoes{
     padding: 1.5%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.119);
     margin-bottom: 2%;
+    transition: all 0.5s ease;
 }
+
+.containerComentarios .comentario:hover{
+    transform: scale(1.05);
+}
+
+.containerComentarios:hover > .comentario:not(:hover){
+    opacity: 0.8;
+}
+
+/* PÁGINA DE NOTÍCIAS */
+.apresentacaoNoticias{
+    padding-top: 1%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #22140c;
+    color: #f3e7bf;
+}
+
+.apresentacaoNoticias h1{
+    font-size: 60px;
+}
+.apresentacaoNoticias p{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    color: #f3e7bf;
+}
+
+.containerNoticiaPrincipal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerNoticiaPrincipal .noticiaPrincipal1{
+    background-image: url(./Imagens/pastelFrangoCheddar.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerNoticiaPrincipal .noticiaPrincipal2{
+    background-image: url(./Imagens/parteInternaPastelaria.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerNoticiaPrincipal .noticiaPrincipal3{
+    background-image: url(./Imagens/imagemLojaFisicaAura.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerNoticiaPrincipal .noticiaPrincipal5{
+    background-image: url(./Imagens/parteInternaPastelaria.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerNoticiaPrincipal .noticiaPrincipal5{
+    background-image: url(./Imagens/parteInternaPastelaria.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoNP{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    filter: blur(2px);
+    padding: 5%;
+}
+
+
+.textoNP:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    padding: 11.3%;
+    backdrop-filter: blur(3px);
+}
+
+.textoNP h1{
+    font-size: 60px;
+} 
+
+.textoNP p{
+    font-size: 20px;
+} 
+
