@@ -582,7 +582,7 @@ footer{
 }
 
 .SaboresSalgados .salg .pastel:hover{
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .salg:hover > .pastel:not(:hover){
@@ -633,7 +633,7 @@ footer{
 }
 
 .SaboresDoces .doc .pastel:hover{
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .doc:hover > .pastel:not(:hover){
@@ -684,7 +684,7 @@ footer{
 }
 
 .SaboresBebidas .bebidass .bebida:hover{
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .bebidass:hover > .bebida:not(:hover){
