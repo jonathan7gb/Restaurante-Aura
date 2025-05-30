@@ -35,7 +35,6 @@ header{
     justify-content: space-between;
     background-color: #22140c;
     color: #d4c38e;
-    width: 100vw;
 }
 
 .logo {
@@ -350,12 +349,12 @@ header h2{
 
 footer{
     margin-top: 100px;
-    width: 100vw;
+    width: 100%;
 }
 
 .footerNoticias{
     margin-top: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .ConteudoFooter{
@@ -1380,7 +1379,6 @@ textarea .observacoes{
     align-items: center;
     background-color: #22140c;
     color: #f3e7bf;
-    width: 100vw;
 }
 
 .apresentacaoNoticias h1{
@@ -1398,6 +1396,7 @@ textarea .observacoes{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .containerNoticiaPrincipal .noticiaPrincipal1{
@@ -1462,6 +1461,7 @@ textarea .observacoes{
     filter: blur(2px);
     padding-top: 5%;
     padding-bottom: 5%;
+    cursor: pointer;
 }
 
 
