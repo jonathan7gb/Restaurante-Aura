@@ -35,6 +35,7 @@ header{
     justify-content: space-between;
     background-color: #22140c;
     color: #d4c38e;
+    width: 100vw;
 }
 
 .logo {
@@ -349,6 +350,12 @@ header h2{
 
 footer{
     margin-top: 100px;
+    width: 100vw;
+}
+
+.footerNoticias{
+    margin-top: 0;
+    width: 100vw;
 }
 
 .ConteudoFooter{
@@ -1373,6 +1380,7 @@ textarea .observacoes{
     align-items: center;
     background-color: #22140c;
     color: #f3e7bf;
+    width: 100vw;
 }
 
 .apresentacaoNoticias h1{
@@ -1406,7 +1414,7 @@ textarea .observacoes{
 .containerNoticiaPrincipal .noticiaPrincipal2{
     background-image: url(./Imagens/parteInternaPastelaria.png);
     background-size: cover;
-    background-position: center;
+    background-position: center 85%;
     width: 100vw;
     height: 70vh;
     display: flex;
@@ -1414,9 +1422,19 @@ textarea .observacoes{
     justify-content: center;
 }
 .containerNoticiaPrincipal .noticiaPrincipal3{
-    background-image: url(./Imagens/imagemLojaFisicaAura.png);
+    background-image: url(./Imagens/PastelDoce.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center 80%;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerNoticiaPrincipal .noticiaPrincipal4{
+    background-image: url(./Imagens/PastelPagSobre.png);
+    background-size: cover;
+    background-position: center 100%;
     width: 100vw;
     height: 70vh;
     display: flex;
@@ -1424,17 +1442,7 @@ textarea .observacoes{
     justify-content: center;
 }
 .containerNoticiaPrincipal .noticiaPrincipal5{
-    background-image: url(./Imagens/parteInternaPastelaria.png);
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.containerNoticiaPrincipal .noticiaPrincipal5{
-    background-image: url(./Imagens/parteInternaPastelaria.png);
+    background-image: url(./Imagens/diaDasMulheres.png);
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -1452,14 +1460,16 @@ textarea .observacoes{
     align-items: center;
     transition: all 1s ease;
     filter: blur(2px);
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
 .textoNP:hover{
     filter: blur(0px);
     transform: scale(1.2);
-    padding: 11.3%;
+    padding-top: 11.3%;
+    padding-bottom: 11.3%;
     backdrop-filter: blur(3px);
 }
 
