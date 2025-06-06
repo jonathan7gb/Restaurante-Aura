@@ -1509,7 +1509,7 @@ textarea .observacoes{
     flex-direction: row;
 }
 
-.ladoEsquerdo{
+.ladoEsquerdoLogin{
     width: 50%;
 }
 
@@ -1522,6 +1522,7 @@ textarea .observacoes{
 
 .formularioLogin{
     margin-top: 15%;
+    margin-bottom: 10%;
     width: 35vw;
     display: flex;
     flex-direction: column;
@@ -1570,7 +1571,7 @@ textarea .observacoes{
     align-items: center;
     width: 72%;
     height: 40px;
-    padding: 3%;
+    padding: 4%;
     margin-bottom: 2%;
     background-color: #24150d;
     color: #f3e7bf;
@@ -1586,13 +1587,36 @@ textarea .observacoes{
     border: 1px solid #5c4940;
 }
 
-.formularioLogin .semContaLogin{
+
+.formularioLogin .esqueceuSenhaLogin{
     text-align: center;
-    color: #2E1A0F;ku
+    color: #2E1A0F;
     text-decoration: none;
     transition: all 0.5s ease;
-    margin-bottom: 8%;
-    margin-top: 2%;
+    margin-top: 1%;
+}
+
+.formularioLogin .esqueceuSenhaLogin span{
+    color: #2E1A0F;
+    text-decoration: underline;
+}
+
+
+.formularioLogin .esqueceuSenhaLogin:hover{
+    transform: scale(1.05);
+}
+
+.formularioLogin .semContaLogin:hover{
+    transform: scale(1.05);
+}
+
+.formularioLogin .semContaLogin{
+    text-align: center;
+    color: #2E1A0F;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin-bottom: 5%;
+    margin-top: 1%;
 }
 
 .formularioLogin .semContaLogin span{
@@ -1600,18 +1624,56 @@ textarea .observacoes{
     text-decoration: underline;
 }
 
-.formularioLogin .semContaLogin:hover{
-    transform: scale(1.03);
+.outrosMetodosLogins{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 7%;
 }
 
-.ladoDireito{
-    width: 50vw;
-    height: 90vh;
+.outrosMetodosLogins img{
+    width: 45px;
+    height: 45px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.outrosMetodosLogins img:hover{
+    transform: scale(1.2);
+}
+
+.ladoDireitoLogin{
+    display: flex;
+}
+
+.logoAuraLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoAuraLogin p{
+    margin-top: 4%;
+    font-size: 17px;
+}
+
+.logoLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Battambang", system-ui;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    width: 750px;
     margin-left: 5%;
-    opacity: 0.7;
 }
 
-.ladoDireito .imgLogin{
-    height: 100%;
+.logoLogin svg{
+    padding-left: 5%;
 }
-
