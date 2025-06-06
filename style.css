@@ -1507,6 +1507,7 @@ textarea .observacoes{
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap-reverse;
 }
 
 .ladoEsquerdoLogin{
@@ -1632,6 +1633,7 @@ textarea .observacoes{
     width: 60%;
     margin: auto;
     margin-bottom: 7%;
+    flex-wrap: wrap;
 }
 
 .outrosMetodosLogins img{
