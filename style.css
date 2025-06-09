@@ -87,7 +87,7 @@ header h2{
 }
 
 .opcoesHeader a{
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     font-weight: 500;
     color: white;
@@ -95,13 +95,13 @@ header h2{
 }
 
 .opcoesHeader .opcaoDoHeader:hover{
-    font-size: 18px;
+    font-size: 16px;
     color: #d4c38e;
 }
 
 .login_svg{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     color: #f3e7bf;
     transition: all 0.5s ease;
     display: flex;
@@ -1589,40 +1589,42 @@ textarea .observacoes{
 }
 
 
-.formularioLogin .esqueceuSenhaLogin{
+.formularioLogin .EsqueceuSenha{
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #2E1A0F;
-    text-decoration: none;
     transition: all 0.5s ease;
     margin-top: 1%;
 }
 
-.formularioLogin .esqueceuSenhaLogin span{
+.formularioLogin .esqueceuSenhaLogin{
     color: #2E1A0F;
-    text-decoration: underline;
+    margin-left: 1%;
 }
 
 
 .formularioLogin .esqueceuSenhaLogin:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
-.formularioLogin .semContaLogin:hover{
-    transform: scale(1.05);
-}
-
-.formularioLogin .semContaLogin{
+.formularioLogin .SemConta{
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #2E1A0F;
-    text-decoration: none;
     transition: all 0.5s ease;
     margin-bottom: 5%;
     margin-top: 1%;
 }
 
-.formularioLogin .semContaLogin span{
+.formularioLogin .semContaLogin{
     color: #2E1A0F;
-    text-decoration: underline;
+    margin-left: 1%;
+}
+
+.formularioLogin .semContaLogin:hover{
+    transform: scale(1.03);
 }
 
 .outrosMetodosLogins{
@@ -1677,5 +1679,170 @@ textarea .observacoes{
 }
 
 .logoLogin svg{
+    padding-left: 5%;
+}
+
+
+
+/* PARTE DO CADASTRO */
+.paginatoda{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.ladoDireitoCadastro{
+    width: 55%;
+}
+
+.containerCadastro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formularioCadastro{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2E1A0F;
+    box-shadow: 10px 10px  #2E1A0F;
+}
+
+.formularioCadastro h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 7%;
+    color: #2E1A0F;
+}
+
+.formularioCadastro form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 6%; 
+}
+
+.formularioCadastro form label{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    width: 70%;
+}
+
+.formularioCadastro form input{
+    width: 70%;
+    height: 40px;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+    border: 1px solid #2E1A0F;
+    background-color: #f3e7bf;
+}
+
+.formularioCadastro form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72%;
+    height: 40px;
+    padding: 4%;
+    margin-bottom: 2%;
+    background-color: #24150d;
+    color: #f3e7bf;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #24150d;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.formularioCadastro form button:hover{
+    background-color: #5c4940;
+    border: 1px solid #5c4940;
+}
+
+.formularioCadastro .PossuiConta{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #2E1A0F;
+    transition: all 0.7s ease;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+.formularioCadastro .PossuiContaCadastro{
+    color: #2E1A0F;
+    margin-left: 1%;
+}
+
+.formularioCadastro .PossuiContaCadastro:hover{
+    transform: scale(1.03);
+}
+
+.outrosMetodosCadastros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 7%;
+    flex-wrap: wrap;
+}
+
+.outrosMetodosCadastros img{
+    width: 45px;
+    height: 45px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.outrosMetodosCadastros img:hover{
+    transform: scale(1.2);
+}
+
+.ladoEsquerdoCadastro{
+    display: flex;
+    width: 45%;
+}
+
+.logoAuraCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.logoAuraCadastro p{
+    margin-top: 4%;
+    font-size: 17px;
+}
+
+.logoCadastro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Battambang", system-ui;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    width: 750px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.logoCadastro svg{
     padding-left: 5%;
 }
