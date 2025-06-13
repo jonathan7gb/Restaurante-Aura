@@ -50,3 +50,13 @@ Incluam no envio um breve descritivo sobre o restaurante criado (nome, estilo, t
 Evite copiar conteúdos prontos — soltem a criatividade!
 
 Caprichem na organização do código: indentação correta, uso semântico de tags e boas práticas com CSS
+
+## 📂 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/jonathan7gb/Restaurante-Aura.git
+   ```
+2. Acesse a pasta do projeto e abra o arquivo `index.html` no seu navegador.
+
+---
