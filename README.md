@@ -1,3 +1,5 @@
+https://restaurante-aura.vercel.app/ -> Resultado
+
 <h1>🍽️ Atividade Prática: Criação de Site para Restaurante</h1>
 
 🎯 Objetivo:
