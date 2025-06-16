@@ -1,4 +1,5 @@
-https://restaurante-aura.vercel.app/ -> Resultado
+<h1 align="center">Link do Resultado</h1>
+<a align="center">https://restaurante-aura.vercel.app/</a>
 
 <h1>🍽️ Atividade Prática: Criação de Site para Restaurante</h1>
 
